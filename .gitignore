@@ -1,0 +1,35 @@
+node_modules/
+dist/
+bin/
+output/
+tmp/
+
+# Local platform and workspace metadata
+.cowork/
+.cowork.json
+.cowork-cookie.secret
+
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+*.local
+*.properties
+!*.properties.example
+.seedance-request.json
+
+# Internal planning and deployment artifacts are intentionally not published.
+docs/
+tasks/
+prepack.sh
+install.sh
+start.sh
+health.sh
+backend/sso_contract.py
+scripts/build_judging_board.py
+garden-gpt-image-2/
+poster/
+
+# Generated archives and OS metadata
+*.zip
+.DS_Store
